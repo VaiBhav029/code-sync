@@ -21,7 +21,6 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
           lineNumbers: true,
         }
       );
-
       editorRef.current.on("change", (instance, changes) => {
         const { origin } = changes;
         const code = instance.getValue();
