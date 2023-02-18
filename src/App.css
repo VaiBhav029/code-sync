@@ -1,0 +1,131 @@
+.homePageWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+}
+.formWrapper{
+  background:#282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+footer{
+  position:fixed;
+  bottom:0;
+}
+footer a {
+  color :#4aee88
+}
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+.mainLabel{
+  margin-bottom: 20px;
+  margin-top: 0;
+  text-align: center;
+}
+.logoWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  height: 150px;
+  width: 150px;
+
+}
+.inputBox{
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  background: #fff;
+  font-weight: bold;
+  font-size: 16px
+
+}
+.btn{
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.joinBtn{
+  background: #4aee88;
+  width: 100px;
+  margin-left: auto;
+}
+.joinBtn:hover,.levaeBtn:hover{
+  background: #44ce79;
+}
+.createInfo{
+  margin-top: 20px;
+ text-align: center;
+}
+.createNewBtn{
+  color: #4aee88;
+  text-decoration: none;
+  border-bottom: 1px solid #44ce79;
+  transition: 0.5s ease-in-out;
+
+}
+.createNewBtn:hover,footer{
+  color: #44ce79;
+}
+
+/* EditorPage */
+.mainWrap{
+  display: grid;
+  grid-template-columns:230px 1fr ;
+}
+.aside{
+  background: #0b0d14;
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.asideInner{
+  flex:1
+}
+.clientList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:20px;
+}
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+
+}
+.userName{
+  margin-top: 8px;
+}
+.logo{
+  border-bottom: 1px solid #4242;
+}
+.logoImage{
+  height: 150px;
+  width: 150px;
+
+}
+.levaeBtn{
+  margin-top: 20px;
+  background:#4aee88
+}
+.CodeMirror {
+  min-height: calc(100vh - 7px);
+  font-size: 18px;
+  line-height: 1.6;
+  padding-top: 4px;
+}
